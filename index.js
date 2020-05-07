@@ -16,7 +16,7 @@ server.get('/', (req, res) => {
 //   console.log('\n*** Server Running on http://localhost:4000 ***\n');
 // });
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 4001;
 server.listen(port, () => {
   console.log(`\n* Server running on http://localhost:${port} *\n`);
 });
